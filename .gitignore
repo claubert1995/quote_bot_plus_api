@@ -1,0 +1,43 @@
+# ========================
+# Python & environnement
+# ========================
+venv/                  # Environnement virtuel
+__pycache__/           # Cache Python
+*.py[cod]              # Fichiers compilés (.pyc, .pyo, .pyd)
+*.pyd
+*.pyo
+
+# ========================
+# Logs & fichiers temporaires
+# ========================
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ========================
+# IDE / éditeurs
+# ========================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ========================
+# Modèles / datasets lourds
+# ========================
+models/                # dossier local pour stocker les modèles Torch
+*.pt
+*.safetensors
+*.ckpt
+
+# ========================
+# OS & système
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Autres fichiers à ignorer
+# ========================
+.env                   # si tu utilises un fichier pour variables d'environnement
